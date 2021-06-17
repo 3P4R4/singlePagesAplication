@@ -13,7 +13,7 @@ deploy:
   edge: true,
   skip-cleanup : true
   keep-history: true
-  github-token: $token-travis_spa
+  github-token: $token_travis_spa
   local-dir: dist/
   target-brach: gh-pages
   commit_message: "Deploy Release"
