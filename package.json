@@ -1,12 +1,9 @@
 {
     "name": "spa",
     "version": "1.0.0",
-    "homepage": "https://3p4r4.github.io/singlePagesAplications/", 
     "description": "\u001b[A\u001b[A\u001b[B\u001b[Bsingle page aplication",
     "main": "index.js",
     "scripts": {
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d dist",
         "build": "webpack --mode production",
         "start": "webpack-dev-server --open --mode development"
     },
