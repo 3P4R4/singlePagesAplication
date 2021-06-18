@@ -1,7 +1,7 @@
 {
     "name": "spa",
     "version": "1.0.0",
-    "description": "\u001b[A\u001b[A\u001b[B\u001b[Bsingle page aplication",
+    "description": "single page application",
     "main": "index.js",
     "scripts": {
         "build": "webpack --mode production",
@@ -20,10 +20,5 @@
         "webpack": "^4.41.2",
         "webpack-cli": "^3.3.10",
         "webpack-dev-server": "^3.9.0"
-    },
-    "dependencies": {
-        "gh-pages": "^3.2.1",
-        "glob": "^7.1.7",
-        "glob-parent": "^6.0.0"
     }
 }
