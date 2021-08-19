@@ -1,0 +1,13 @@
+tasks:
+- name: Ventana 1
+  before: echo "comando de inicio anterior"
+  init: '- init: npm install'
+  command: 'npm run dev'
+- name: Ventana 2
+  init: echo 'se inicializa en INIT'
+  command: echo 'se inicializa el comando'
+
+ports:
+- port: 8081
+  onOpen: open-preview
+
